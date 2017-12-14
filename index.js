@@ -49,8 +49,9 @@ function viewCart() {
 
 function total() {
   for (var i = 0; i < cart.length - 1; i++) {
+    total 
     var key = Object.keys(cart[i])
-    sum += 
+    sum += add(cart[i][key]) 
   }
 }
 
