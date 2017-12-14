@@ -52,8 +52,7 @@ function total() {
     var currentTotalValue = 0 
     var key = Object.keys(cart[i])
     currentTotalValue += cart[i][key] 
-    return currentTotalValue
-  }
+  } return currentTotalValue
 }
 
 function removeFromCart(item) {
