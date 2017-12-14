@@ -48,8 +48,8 @@ function viewCart() {
 }
 
 function total() {
+  var currentTotalValue = 0
   for (var i = 0; i < cart.length - 1; i++) {
-    var currentTotalValue = 0 
     var key = Object.keys(cart[i])
     var cost = cart[i][key]
     currentTotalValue += cart[i][key] 
